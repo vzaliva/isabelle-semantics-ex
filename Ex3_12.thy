@@ -1,4 +1,4 @@
-theory Excercise312
+theory Ex3_12
 imports
   "~~/src/HOL/IMP/AExp"
 begin

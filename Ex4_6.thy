@@ -1,4 +1,4 @@
-theory Excercise46
+theory Ex4_6
 imports
   "~~/src/HOL/IMP/AExp"
 begin

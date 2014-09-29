@@ -1,4 +1,4 @@
-theory Excercise38
+theory Ex3_8
 imports
   "~~/src/HOL/IMP/BExp"
 begin

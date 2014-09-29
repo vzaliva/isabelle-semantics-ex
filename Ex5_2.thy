@@ -1,4 +1,4 @@
-theory Excercise52
+theory Ex5_2
   imports Main
 begin
 
@@ -26,7 +26,8 @@ proof -
     fix n assume A2:"length xs=(Suc n)+n"
     hence ?C2 proof -
       obtain ys zs where "ys = take (Suc n) xs \<and> zs = drop (Suc n) xs" by blast
-      hence "xs=ys@zs \<and> length ys = length zs+1" by (metis A2 Suc_eq_plus1 add_diff_cancel_right' append_take_drop_id length_append length_drop nat_add_commute)
+      hence "xs=ys@zs \<and> length ys = length zs+1" 
+        by (metis A2 Suc_eq_plus1_left ab_semigroup_add_class.add_ac(1) add_diff_cancel_right' append_take_drop_id comm_monoid_diff_class.add_diff_cancel_left length_append length_drop)
       thus ?thesis by blast
     qed
   }

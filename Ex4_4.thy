@@ -1,4 +1,4 @@
-theory Excercise44
+theory Ex4_4
   imports Main
 begin
 

@@ -1,4 +1,4 @@
-theory Excercise54
+theory Ex5_4
   imports Main
 begin
 
